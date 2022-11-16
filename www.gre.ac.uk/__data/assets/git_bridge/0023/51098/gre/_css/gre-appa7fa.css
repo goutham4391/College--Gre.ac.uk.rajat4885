@@ -1,0 +1,244 @@
+/* NEW HELPER CLASS */
+
+@media screen and (min-width: 40em) {
+  ul.gre-columns-2,
+  div.gre-columns-2 ul {
+    columns: 2;
+  }
+}
+
+
+/* GENERAL FIXES */
+
+.gre-para-with-dropdown .selectboxit-container {
+  margin-top: -0.7rem;
+}
+
+
+/* CLEARING CUSTOM SEARCH BUTTON TWEAKS */
+
+.gre-clearing-search {
+  position: relative;
+}
+
+#jets-search .jets-search-button {
+  margin: 0;
+}
+
+#jets-search .input-group {
+  margin-bottom: 0;
+}
+
+#jets-search .jets-results-count {
+  margin-bottom: 0.6rem;
+  margin-top: 0.2rem;
+}
+
+#jets-search .jetsCustomSearch {
+  height: 3rem;
+}
+
+.gre-clearing-search h4 {
+  font-size: 1.2rem;
+}
+
+.gre-clearing-search ul {
+  font-size: 0.9rem;
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+  .gre-clearing-search ul {
+    column-count: 2;
+  }
+}
+
+
+/* GECKO FORMS ON MOBILE */
+
+@media screen and (max-width: 63.9375em) {
+  .gre-gecko-form iframe {
+    height: 1400px !important;
+  }
+}
+
+/* CLEARING 2022 BANNER */
+
+.gre-clearing-2022 .apply-or-priority-header {
+  padding: 0.45rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  font-size: 1.8rem;
+}
+
+
+.gre-clearing-2022 .apply-or-priority-options > .cell {
+  color: #fff;
+  background: var(--main-blue);
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+
+.gre-clearing-2022 .apply-or-priority-options > .cell:nth-child(2) {
+  background: var(--spirit3-light2);
+  color: var(--main-blue);
+}
+
+.gre-clearing-2022 .apply-or-priority-options > .cell:nth-child(1) a {
+  color: #fff;
+  text-decoration-color: var(--spirit3-light2);
+ } 
+
+.gre-clearing-2022 .apply-or-priority-options h3 {
+  font-size: 1.8rem;
+}
+
+.gre-clearing-2022 .apply-or-priority-options h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.gre-clearing-2022 .apply-or-priority-options i {
+  font-size: 3.2rem;
+  font-family: 'Font Awesome 6 Pro';
+}
+
+
+/* small only */
+
+@media screen and (max-width: 39.9375em) {
+  .gre-clearing-2022 .apply-or-priority-header,
+  .gre-clearing-2022 .apply-or-priority-options > .cell {
+    text-align: center;
+  }
+
+  .gre-clearing-2022 .apply-or-priority-options h3 {
+    font-size: 1.4rem;
+  }
+
+  .gre-clearing-2022 .apply-or-priority-options h4 {
+    font-size: 1.1rem;
+  }
+}
+
+/* DESIGN FIXES */
+
+#main-menu .menu.dropdown {
+  z-index: 1000;
+}
+
+/* Medium and below */
+@media screen and (max-width: 63.9375em) {
+/* Transferred to main */
+/*
+  #main-menu ul.mega .gre-mega-menu .grid-x {
+    margin-left: 0;
+  }
+
+  #main-menu li.gre-nav-logo a img {
+    height: 2.5rem;
+  }
+
+  .menu .gre-nav-logo {
+    margin-right: 0;
+  }
+*/
+}
+
+
+/* small only */
+
+
+@media screen and (max-width: 39.9375em) {
+  .gre-search-box .input-group>button,
+  .gre-search-box .input-group>.button  {
+    width: calc(100% - 0.0625rem) !important;
+    margin-left: 0.2em !important;
+  }
+}
+
+/* TOP BANNER */
+
+.gre-top-banner {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.gre-top-banner a {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+  transition: all .5s ease;
+  background: var(--spirit2-light2);
+  color: var(--main-blue);
+}
+
+.gre-top-banner a .gre-top-banner-cta {
+  display: block;
+  border: 2px solid var(--main-blue);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1.4rem;
+  border-radius: 3rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.gre-top-banner a:hover, .gre-top-banner a:active, .gre-top-banner a:focus {
+  background: var(--spirit3);
+  color: var(--main-blue);
+}
+
+.gre-top-banner a:hover .gre-top-banner-cta {
+}
+
+@media screen and (max-width: 39.9375em) {
+  .gre-top-banner a h2 {
+    font-size: 1.4rem;
+  }
+
+  .gre-top-banner a .gre-top-banner-cta {
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+/* h2 is already 1.4rem below this which is as small as it should probably go -NA */
+@media screen and (min-width: 39.9375em) {
+  .gre-top-banner a h2.long-title {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 53.75em) {
+  .gre-top-banner a h2.long-title {
+    font-size: 2.4rem;
+  }
+}
+/* PERSONALISATION BITS */
+
+.gre-personalisation {
+  border-top: 2px solid #eaeaea;
+  border-bottom: 2px solid #eaeaea;
+  margin-top: 0px !important;
+  padding-top: 0.9375rem !important;
+  padding-bottom: 0.9375rem !important;
+}
+
+.gre-personalisation-desc {
+  margin-right: 0.4rem;
+}
+
+.gre-personalisation-desc i {
+  margin-right: 0.4rem;
+}
+
+.gre-personalisation-select select {
+  margin-bottom: 0;
+  margin-left: 0.4rem;
+  padding-left: 0.8rem;
+  padding-right: 1.8rem;
+  font-size: 0.8rem;
+}
+

@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.gre.ac.uk	TRUE	/	FALSE	1999999999	SQ_SYSTEM_SESSION	201nb2ldmqh8q04q83h8htem4k
+www.gre.ac.uk	TRUE	/	FALSE	1999999999	sq-active-remote-session	1
+.www.gre.ac.uk	TRUE	/	FALSE	1999999999	TS01641398	0169a89b1637c83d2f6f53f84aed044211446cec7dd512ea6fe1f3835e6ab8620cafb565a813f9beb67529cffa096cb3ec98a19472
+

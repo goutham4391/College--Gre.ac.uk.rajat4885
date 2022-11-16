@@ -1,0 +1,9 @@
+/* CUSTOM CSS TO DEAL WITH TABLE WRAPPING ON COOKIE PAGE: https://www.gre.ac.uk/about-us/governance/legal-information/privacy/ (GE/TT) */
+
+#ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy table {
+    width: 100%;
+    overflow: hidden;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
